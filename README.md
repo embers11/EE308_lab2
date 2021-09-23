@@ -1,7 +1,7 @@
 # EE308_lab2 code standard
 this repository includes the cpp file of EE308 laboratory2 <br>
 Code Standard(C++) <br>
-the stand is only for lab2 so the only used part have standard definition <br>
+the stand is only for lab2 so only used part have standard definition <br>
 ## Indentation
 Use 1 Tab for indentation. <br>
  <br>
