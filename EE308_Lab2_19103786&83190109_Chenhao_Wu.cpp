@@ -50,7 +50,7 @@ int main(){
 			numt+=count[j];	
 		}
 	}
-	int index[5]={25,2,6,15,9},x[3]={0,0,0};// index:the index in keyword appendix£»x:the array to store the number of switch,if and if else if  
+	int index[5]={25,2,6,15,9},x[3]={0,0,0};// index:the index in keyword appendixÂ£Â»x:the array to store the number of switch,if and if else if  
 	int struc[count[index[0]]]={0};//creat a array according previous switch number to store case number within each switch function 
 	string pick[3]={"else if", "if","else"};
 	int divide[1],ely=0,eln=0;//the divide here is used to mark string with if to divided srting for better sort if else and else if,
@@ -73,7 +73,11 @@ int main(){
 			}
 			else break;
 		}
-	int divide[x[1]];
+		int Copy_array[x[1]];
+		for (int i=0;i<x[1]-1;i++){
+			Copy_array[i]=divide[i];
+		}
+		*divide=*Copy_array;
 		while(true){
 			if(str.find(keyword[index[3]]) != -1){
 				x[2]++;
